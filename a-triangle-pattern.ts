@@ -12,7 +12,7 @@ function triangleHeight(height: number) {
   let nums: number = 1;
   let trianglePatern: string = "";
 
-  for (let i = 1; i <= height; i++) {
+  for (let i: number = 1; i <= height; i++) {
     for (let j = 1; j <= i; j++) {
       trianglePatern += `0${nums} `;
       nums++;
